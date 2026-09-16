@@ -1,11 +1,12 @@
 const swFestival = new Swiper(".sw-festival", {
+  speed: 350,
   loop: true,
   slidesPerView: 3.5,
-  slidesPerGroup: 1,
+  slidespergroup: 1,
   spaceBetween: 32,
   //   centeredSlides: true,
   pagination: {
-    el: ".festival .pagination .swiper-pagination",
+    el: ".festival .swiper-pagination",
     type: "fraction",
   },
   navigation: {
